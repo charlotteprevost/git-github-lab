@@ -1,0 +1,29 @@
+h1, h5 {
+	text-align: center;
+	font-family: "Calibri", Verdana, sans-serif;
+	/*background-color: blue;*/
+}
+h5 {
+	font-size: 10px;
+	margin: -20px auto 10px auto;
+}
+h3 {
+	color: #494520;
+}
+img {
+	border: solid 7px #494520;
+	border-radius: 50px;
+}
+.xp {
+	margin: 30px 50px 20px 50px;
+}
+li {
+	margin: 10px auto;
+}
+.links {
+	margin: 100px auto 0 5px;
+	text-align: 
+}
+#tiny {
+		font-size: 100%;
+}
