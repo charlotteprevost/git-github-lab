@@ -1,3 +1,7 @@
+body {
+	font-family: "Calibri", Verdana, sans-serif;
+}
+
 h1, h5 {
 	text-align: center;
 	font-family: "Calibri", Verdana, sans-serif;
@@ -13,17 +17,36 @@ h3 {
 img {
 	border: solid 7px #494520;
 	border-radius: 50px;
+	max-height: 300px;
 }
-.xp {
-	margin: 30px 50px 20px 50px;
+.xp	{
+	float: left;
+	width: 50%;
+}
+.xpTitle {
+	margin: 20px 50px;
 }
 li {
 	margin: 10px auto;
 }
 .links {
-	margin: 100px auto 0 5px;
-	text-align: 
+	float: right;
+	margin: 20px 20px 0 auto;
+	padding: 5px;
 }
-#tiny {
-		font-size: 100%;
+a {
+	line-height: 30px;
+}
+div	{
+	margin: 5px;
+	background-color: goldenrod;
+}
+.column {
+	float: left;
+	background-color: goldenrod;
+	margin: 10px 5px;
+	width: 25%;
+	height: 500px;
+	text-align: center;
+	padding: 5px;
 }
