@@ -29,9 +29,13 @@ Maybe I want to change the name of the commit.
 The commit message should read: 
 "Commit 2 - The 2nd set of GIT homework answers are complete".
 
-<!-- ÷What command do you use to create a branch? -->
-<!-- hat command do you use to use a different branch? -->
+<!-- What command do you use to create a branch? -->
+git branch <branchName>
+<!-- What command do you use to use a different branch? -->
+git checkout <branchName>
 <!-- Why would you want to use a branch other than the default master? -->
+To reduce any risks of modifying files (local or remote) that will be later committed. 
+A branch is like a harmless sandbox!
 
 🔴 ** Commit your work.** 
 The commit message should read: 
