@@ -6,17 +6,24 @@ git add <fileName>
 <!-- Commit changes in local repo (prepare them to be sent to GitHub remote repo)  -->
 git commit -m "relevant commit message"
 <!-- Push changes from local repo to GitHub repo -->
-git push origin <gitHubBranchName>
+git push <gitHubRemote> <branchName>
 
 🔴 **Commit your work.** 
 The commit message should read: 
 "Commit 1 - The 1st set of GIT homework answers are complete".
 
 <!-- What command do you use to pull any changes from the master repository into your local repository? -->
+git pull <masterRepo:RemoteName> <branchName>
 <!-- What command do you use to unstage a file? -->
+git reset -- <fileName>
 <!-- What command do you use to change your files back to how they were after a commit? -->
+git reset HEAD^ --hard
 <!-- Why is it important to use -- when changing files back to a previous state? -->
+Changing a file back to a previous state requires the use of flags, -- happens to be the syntax required for the reset command flags (according to $ man git-reset)
 <!-- Why might you want to reset your files back to a previous commit? -->
+Maybe I've realized I haven't modified the files as I wanted.
+Maybe I want to add/remove a file to the stage before I commit.
+Maybe I want to change the name of the commit.
 
 🔴 ** Commit your work.** 
 The commit message should read: 
